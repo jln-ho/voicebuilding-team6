@@ -3,7 +3,7 @@ tg = Read from file... final.TextGrid
 
 tier = 1
 counter = 1
-for interval from 1 to 902
+for interval from 1 to 901
   select tg
   label$ = Get label of interval... tier interval
   if label$ <> "beep" && label$ <> "beepbeep"
